@@ -16,7 +16,6 @@ public class Program {
         ChessMatch chessMatch = new ChessMatch();
 
         while (true) {
-
             try {
                 UI.clearScreen();
                 UI.printBoard(chessMatch.getPieces());
@@ -34,8 +33,5 @@ public class Program {
                 read.nextLine();
             }
         }
-
-
     }
-
 }
