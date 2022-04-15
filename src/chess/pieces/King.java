@@ -5,8 +5,6 @@ import boardgame.Position;
 import chess.ChessPiece;
 import chess.Color;
 
-import javax.sql.ConnectionPoolDataSource;
-
 public class King extends ChessPiece {
 
     public King(Board board, Color color) {
